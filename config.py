@@ -29,6 +29,7 @@ class Config:
             'profanity_enabled': True,
             'enabled_channels': [],  # Empty means all channels
             'log_channel': None,
+            'announcement_channel': None,
             'prefix': ['!', '?', '/'],
             'auto_role': None,
             'welcome_channel': None,
