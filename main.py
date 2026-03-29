@@ -59,7 +59,8 @@ class DiscordModerationBot(commands.Bot):
                 'cogs.profanity',
                 'cogs.advanced_moderation',
                 'cogs.utility',
-                'cogs.help'
+                'cogs.help',
+                'cogs.broadcast'
             ]
             
             for cog in cogs_to_load:

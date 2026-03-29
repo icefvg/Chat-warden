@@ -174,7 +174,8 @@ class HelpCommand(commands.Cog):
                         '`/set_prefix <prefix>` - Add command prefix\n'
                         '`/remove_prefix <prefix>` - Remove prefix\n'
                         '`/server_settings` - View current settings\n'
-                        '`/bot_info` - Show bot statistics'
+                        '`/bot_info` - Show bot statistics\n'
+                        '`/broadcast <message>` - Broadcast a message to all servers (Owner Only)'
                     ),
                     'inline': False
                 },
