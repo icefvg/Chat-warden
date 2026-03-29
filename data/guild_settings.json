@@ -1,0 +1,16 @@
+{
+  "example_guild_id": {
+    "profanity_enabled": true,
+    "enabled_channels": [],
+    "log_channel": null,
+    "prefix": ["!", "?"],
+    "auto_role": null,
+    "welcome_channel": null,
+    "mute_role": null,
+    "anti_spam_enabled": false,
+    "anti_raid_enabled": false,
+    "anti_link_enabled": false,
+    "max_warns": 3,
+    "auto_ban_enabled": false
+  }
+}

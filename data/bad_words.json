@@ -1,0 +1,29 @@
+{
+  "mild": [
+    "damn", "darn", "crap", "hell", "piss", "suck", "stupid", "idiot", "dumb", "moron",
+    "shut up", "shutup", "wtf", "omg", "lmao", "stfu", "bs", "bullshit"
+  ],
+  "moderate": [
+    "fuck", "shit", "bitch", "ass", "asshole", "dick", "cock", "pussy", "tits", "boobs",
+    "bastard", "slut", "whore", "hoe", "thot", "simp", "incel", "virgin", "horny",
+    "sexy", "porn", "masturbate", "jerk off", "blow job", "blowjob", "handjob",
+    "69", "420", "weed", "marijuana", "cocaine", "heroin", "meth", "drugs"
+  ],
+  "severe": [
+    "motherfucker", "cocksucker", "cunnilingus", "fellatio", "orgasm", "climax",
+    "ejaculate", "penetrate", "intercourse", "fornicate", "copulate",
+    "rape", "molest", "abuse", "assault", "violence", "kill", "murder", "die",
+    "suicide", "self harm", "cutting", "overdose", "death threat"
+  ],
+  "slurs": [
+    "nigger", "nigga", "negro", "coon", "spook", "darkie", "blackie",
+    "faggot", "fag", "queer", "homo", "dyke", "tranny", "shemale",
+    "retard", "retarded", "autistic", "spastic", "mongoloid", "midget",
+    "chink", "gook", "jap", "nip", "slant", "oriental",
+    "spic", "wetback", "beaner", "greaser", "taco", "pablo",
+    "towelhead", "camel jockey", "terrorist", "bomber", "jihad",
+    "kike", "heeb", "hymie", "sheeny", "yid",
+    "honkey", "cracker", "redneck", "hillbilly", "whitey", "mayo"
+  ],
+  "custom": []
+}
