@@ -28,12 +28,24 @@ class DiscordModerationBot(commands.Bot):
         intents.guilds = True
         intents.moderation = True
         
+        # Parse owner IDs from environment variable if provided
+        owner_ids = None
+        env_owners = os.getenv('OWNER_IDS') or os.getenv('OWNER_ID')
+        if env_owners:
+            try:
+                owner_ids = set(int(id.strip()) for id in env_owners.split(',') if id.strip().isdigit())
+                if not owner_ids:
+                    owner_ids = None
+            except Exception as e:
+                logger.error(f"Failed to parse OWNER_IDS: {e}")
+
         super().__init__(
             command_prefix=self.get_prefix,
             intents=intents,
             help_command=None,
             case_insensitive=True,
-            strip_after_prefix=True
+            strip_after_prefix=True,
+            owner_ids=owner_ids
         )
         
         self.config = Config()
