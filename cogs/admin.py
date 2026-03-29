@@ -340,8 +340,8 @@ class AdminCommands(commands.Cog):
         
         await ctx.send(embed=embed)
     
-    @commands.hybrid_command(name="bot_info", description="Show bot information and statistics")
-    async def bot_info(self, ctx):
+    @commands.hybrid_command(name="chatwarden_info", description="Show bot information and statistics")
+    async def chatwarden_info(self, ctx):
         """Show bot information and statistics"""
         embed = create_embed("🤖 Bot Information", color=discord.Color.blue())
         
